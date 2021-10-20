@@ -1,2 +1,10 @@
-<h1>Jobs#new</h1>
-<p>Find me in app/views/jobs/new.html.erb</p>
+<h1>Post a new job</h1>
+<!-- form used from the simple form gem -->
+
+<%= simple_form_for @job do |form| %>
+  <%= form.input :title, label: "Job title" %>
+  <%= form.input :company, label: "Your company" %>
+  <%= form.input :url, label: "Link to job" %>
+  <%= form.button :submit %>
+<% end %>  
+

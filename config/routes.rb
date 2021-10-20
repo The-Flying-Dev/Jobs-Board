@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :jobs #RESTFUL routes
-  root to: 'home#index' #homepage
+  root to: 'jobs#index' #homepage
 
  
 
