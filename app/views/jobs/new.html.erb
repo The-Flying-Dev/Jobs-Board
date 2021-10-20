@@ -2,9 +2,16 @@
 <!-- form used from the simple form gem -->
 
 <%= simple_form_for @job do |form| %>
-  <%= form.input :title, label: "Job title" %>
-  <%= form.input :company, label: "Your company" %>
-  <%= form.input :url, label: "Link to job" %>
+
+  <%= form.input :title, label: "Job title", placeholder: "Front-end Developer, Back-end Developer etc" %>
+  <%= form.input :company, label: "Your company", placeholder: "Netflix, Amazon, Facebook etc" %>
+  <%= form.input :url, label: "Link to job", placeholder: "https://amazon.jobs/en/jobs/995357/senior-embedded-sw-development-engineer" %>
+  <br/>
   <%= form.button :submit %>
 <% end %>  
+<hr>
+<br/>
+<%= link_to "Home", root_path %>
+
+
 
