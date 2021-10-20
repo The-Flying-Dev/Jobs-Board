@@ -5,11 +5,11 @@ So here I am having just completed a Jobs Board app following the guide [How to 
 
 <hr>
 
-                                                      Homepage
+                                                  Homepage
   ![Screenshot](https://github.com/The-Flying-Dev/Jobs-Board/blob/main/public/Home%20page.png) <br/>
 <hr>
 
-                                                     Adding new job
+                                                  Adding new job
  ![Screenshot](https://github.com/The-Flying-Dev/Jobs-Board/blob/main/public/New%20page.png) <br/><br/>
   
  <h3>Additional</h3><br/>
